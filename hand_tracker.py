@@ -1,5 +1,8 @@
+import streamlit as st
 import mediapipe as mp
 import cv2
+
+st.title('Hand Tracker')
 
 mp_drawing = mp.solutions.drawing_utils
 mp_hands = mp.solutions.hands
